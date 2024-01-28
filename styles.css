@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    font-size: 16px; 
+}
+
+header {
+    border: 5px solid #b62797;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.titulo {
+    font-family: 'Honk', system-ui; 
+}
+
+#lista-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 20px; 
+    color: white;
+    padding: 20px; 
+    justify-items: center;
+}
+
+.productos {
+    border: 5px solid #b62797;
+    border-radius: 25px;
+    padding: 16px; 
+    width: 200px; 
+    margin: 16px; 
+    text-align: center;
+}
+
+.imagen{
+    width: 150px;
+}
+
+.botonwp {
+    background-color: rgb(228, 228, 228);
+    border-radius: 80px;
+    color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; 
+    }
+
+    header {
+        padding: 5px; 
+    }
+
+    #lista-productos {
+        grid-template-columns: 1fr; 
+    }
+
+    .productos {
+        width: calc(100% - 32px); 
+        margin: 8px; 
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    #lista-productos {
+        grid-template-columns: repeat(3, 1fr); 
+    }
+
+    .productos {
+        width: calc(100% - 32px); 
+        margin: 8px;
+        text-align: center; 
+    }
+}
