@@ -1,10 +1,14 @@
 body {
     font-family: Arial, sans-serif;
     background-color: black;
-    font-size: 16px; 
+    font-size: 16px;
+    background-image: url('./assets/mariposas.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
 }
 
 header {
+    font-family: 'Courier New', Courier, monospace;
     border: 5px solid #b62797;
     background-color: #333;
     color: #fff;
@@ -60,6 +64,7 @@ header {
     }
 
     header {
+        font-family: 'Courier New', Courier, monospace;
         padding: 5px; 
     }
 
