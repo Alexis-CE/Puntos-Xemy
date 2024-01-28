@@ -10,12 +10,20 @@ header {
     color: #fff;
     text-align: center;
     padding: 10px;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
+    align-items: center;
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
 }
 
 .titulo {
-    font-family: 'Honk', system-ui; 
+    font-family: 'Honk', system-ui;
+    margin: 0;
 }
 
 #lista-productos {
