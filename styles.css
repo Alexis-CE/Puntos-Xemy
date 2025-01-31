@@ -2,9 +2,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: black;
     font-size: 16px;
-    background-image: url('./assets/mariposas.jpeg');
-    background-size: cover; 
-    background-repeat: no-repeat; 
 }
 
 header {
